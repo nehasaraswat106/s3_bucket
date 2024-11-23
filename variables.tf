@@ -2,7 +2,7 @@
 variable "bucket_name" {
   description = "S3 bucket name"
   type        = string
-  default     = "my_bucket"
+  default     = "my_bucket_neha"
 }
 
 variable "region" {
