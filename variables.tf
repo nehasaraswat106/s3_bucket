@@ -1,12 +1,9 @@
-# S3 Module Variables
 variable "bucket_name" {
-  description = "S3 bucket name"
+  description = "Name of the S3 bucket"
   type        = string
-  default     = "my_bucket_neha"
 }
 
 variable "region" {
   description = "AWS region"
   type        = string
-  default     = "us-east-1"
 }
